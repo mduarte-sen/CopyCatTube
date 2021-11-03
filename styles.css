@@ -1,3 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(24, 24, 24);
+    color: #fff;
+    font-size: 0.9rem;
+    margin: 0px;
+    width: 100%;
+}
+
+/* header style starts here */
+
+header{
+    position: fixed;
+    background-color: rgba(39, 39, 39, 0.9);
+    width: 100%;
+    z-index: 100;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+input:focus{
+    outline: none;
+}
+
+#title{
+    position: absolute;
+    display: inline-block;
+    float: left;
+    margin: 0.7rem 3rem 0.9rem 3rem;
+    width: 10%;
+    font-size: 1.7rem;
+}
+
+#search-form{
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+    height: 2rem;
+    margin: 0.7rem 0rem 0.8rem 0rem;
+    padding: 0rem 15rem;
+}
+
+#search-bar{
+    font-size: 1rem;
+    min-width: 35%;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border-width: 1px 0px 1px 1px;
+    border-radius: 1px;
+    border-color: rgb(80, 80, 80);
+}
+
+#search-form > button{
+    border-radius: 1px;
+    border-width: 0px;
+    background-color: rgb(80, 80, 80);
+    color: rgb(255, 255, 255);
+}
+
+/* sidebar style starts here */
+
+#sidebar{
+    position: fixed;
+    display: inline-block;
+    background-color: rgba(39, 39, 39, 0.9);
+    width: 12%;
+    height: 100%;
+    padding-top: 4%;
+    
+}
+
+#sidebar a{
+    display: block;
+}
+
+/* recommended videos style starts here */
+
+#start-recommended{
+    display: inline-block;
+    width: 100%;
+    padding-top: 3.5%;
+    padding-left: 14%;
+}
+
+.video-selector{
+    /* display: inline-block; */
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 22%;
+    margin: 1rem;
+    overflow: hidden;
+}
+
+h3{
+    font-size: 1rem;
+    margin-bottom: 0rem;
+}
+
+p{
+    margin: 0.5rem 0rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.thumbnail{
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+
+.thumbnail > img{
+    width:100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
 }

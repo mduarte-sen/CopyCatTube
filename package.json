@@ -1,0 +1,23 @@
+{
+  "name": "copycattube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "init.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mduarte-sen/CopyCatTube.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mduarte-sen/CopyCatTube/issues"
+  },
+  "homepage": "https://github.com/mduarte-sen/CopyCatTube#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

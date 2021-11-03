@@ -4,25 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CopyCatTube</title>
     <link rel="stylesheet" href="styles.css">
+    <title>CopyCatTube</title>
 </head>
 <body>
     <header>
-        
+        <h1 id="title">CopyCatTube</h1>
+        <form id="search-form" action="" onsubmit="return(false);">
+            <label for=""></label>
+            <input type="text" name="" id="search-bar">
+            <button type="submit">Search</button>
+        </form>
     </header>
     <main>
-        <div id="side-bar">
-
+        <div id="sidebar">
+            <div id="explore-options">
+                <a href="#home">Home</a>
+                <a href="#explore">Explore</a>
+                <a href="#subscriptions">Subscriptions</a>
+            </div>
+            <div id="subs-list">
+                <!-- <h4>Subscriptions</h4> -->
+            </div>
         </div>
-        <div id="start-recommended">
+        <div id="start-recommended" class="container">
             
         </div>
+        <div id="video-container">
+
+        </div>
+        <!-- <video src="" id="video1" width="320" height="240" ></video> -->
+        <!-- <video src="" id="video2" width="320" height="240" ></video> -->
     </main>
     <footer>
         
     </footer>
-    <script src="json/videos.json"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="init.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
